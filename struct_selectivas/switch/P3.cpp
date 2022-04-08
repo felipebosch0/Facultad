@@ -1,5 +1,11 @@
 #include<stdio.h>
 
+// ENUNCAIDO:
+// Diseñar y codificar un programa que permita simular una calculadora de números enteros.
+// Luego de recibir dos operandos enteros, se deben poder realizar las siguientes opciones: 1 Sumar, 2 Restar, 3 Multiplicar, 4 Dividir. Si el usuario ingresa una opci´on inv´alida, esta debe ser informada.
+
+
+
 int main (int argc, char *argv[]) {
     // Inicializamos varibles y aplicamos un type.
 	float num1= 0, num2= 0,sum= 0,res= 0,prod= 0,div= 0; int codig= 0;

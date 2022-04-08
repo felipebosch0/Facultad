@@ -1,19 +1,23 @@
 #include<stdio.h>
 using namespace std;
 
+// ENUNCIADO:
+// Ingrese la cantidad de unidades que tiene una materia y la cantidad de unidades estudiadas por el alumno 
+// y determine si el alumno estudio toda la materia o cuántas unidades le faltan estudiar.
+
 int main (int argc, char *argv[]) {
-	int unid= 0, unid_a= 0;
+	int un= 0, un_est= 0;
 	printf ("Ingrese la cantidad de unidades de la materia: ");
-	scanf ("%d", &unid);
+	scanf ("%d", &un);
 	printf ("Ingrese unidades estudidas: ");
-	scanf ("%d", &unid_a);
+	scanf ("%d", &un_est);
 	
-	if (unid_a==unid){
+	if (un_est==un){
 		printf ("EL alumno estudio toda la materia");
 	}
 	else{
-		if (unid_a<unid){
-			printf ("Le falta estudiar %d unidad/es", (unid - unid_a));
+		if (un_est<un){
+			printf ("Le falta estudiar %d unidad/es", (un - un_est));
 		}
 	}
 	return 0;

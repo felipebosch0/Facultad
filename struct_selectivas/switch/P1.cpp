@@ -1,5 +1,9 @@
 #include<stdio.h>
 
+
+// ENUNCIADO:
+// Ingrese un número y diga a qué día de la semana corresponde 
+// (la semana empieza el domingo).
 int main (int argc, char *argv[]) {
     // inicializacion de variables y aplicarle el type.
 	int num= 0;

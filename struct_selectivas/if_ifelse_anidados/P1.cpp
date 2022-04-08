@@ -1,16 +1,20 @@
 #include<stdio.h>
 using namespace std;
 
+// ENUNCIADO:
+// Ingrese un número y determine si es par.
+
+
 int main (int argc, char *argv[]) {
-	int num= 0;
+	int n= 0;
 	printf ("Ingrese un numero entero: ");
-	scanf ("%d", &num);
+	scanf ("%d", &n);
 	
-	if (num%2==0){
-		printf ("El numero ingresado es par");
+	if (n%2==0){
+		printf ("El numero %d es par", n);
 	}
 	else{
-		printf ("El numero ingresado es impar");
+		printf ("El numero %d es impar", n);
 	}
 	return 0;
 }

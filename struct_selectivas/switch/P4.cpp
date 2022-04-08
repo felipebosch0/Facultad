@@ -1,4 +1,9 @@
 #include<stdio.h>
+// ENUNCIADO 
+// Realice un algoritmo que solicite una letra, 
+// y luego diga si la misma es vocal o consonante.
+
+
 
 int main (int argc, char *argv[]) {
 	char letra;
