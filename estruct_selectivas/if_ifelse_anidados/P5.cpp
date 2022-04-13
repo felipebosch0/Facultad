@@ -7,7 +7,6 @@ using namespace std;
 // se le pagara $20 por hora, pero si trabaja mas de 40 horas entonces las horas extras se le pagaran a $25 por hora.
 
 int main (int argc, char *argv[]) {
-	
 	// inicializacion de variables
 	int h= 0,sueldo= 0;
 	
@@ -20,11 +19,14 @@ int main (int argc, char *argv[]) {
 	if (h<=40){
 		// calculo de sueldo
 		sueldo = h *20;
+		// mostrar
 		printf ("El empleado a trabajado %d, le corresponde un sueldo de $%d", h ,sueldo);
 	}
-	// sino
+	// si no es menor
 	else{
+		// calculos
 		sueldo= ((h-40)*25) + (40 * 20);
+		// mostrar
 		printf ("El empleado a trabajado %d, le corresponde un sueldo de $%d",h ,sueldo);
 	}
 	return 0;
