@@ -1,0 +1,13 @@
+#include<iostream>
+using namespace std;
+
+int main (int argc, char *argv[]) {
+//1. Se tiene un vector de 5 elementos con valores numéricos enteros. Luego mostrar los valores que están en posiciones impares.
+	int val[5]=[0,1,2,3,4];
+
+	printf ("%d\n",val[1]);
+	printf ("%d",val[3]);
+	
+	return 0;
+}
+
